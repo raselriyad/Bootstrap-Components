@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Components</title>
+    <link rel="icon" href="images/bootstrap-logo-shadow.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+    <header class="header-area" id="header">
+        <div class="container">
+            <div class="heading-content">
+                <a class="bootstrap-link" href="https://getbootstrap.com/docs/5.2/customize/components/"> <i style="color: #8411f6; font-size: 40px; justify-content: center; align-items: center;" class="fa-brands fa-bootstrap icons"></i> <span class="components">Components</span></a>
+            </div>
+        </div>
+    </header>
+    <!-- ============================= Header End  -->
+    <!-- ============================= Components Accordion Start  -->
+    <section class="accordion-area" id="">
+        <div class="container">
+            <div class="heading-title">
+                <!-- <h2 class="bd-heading sticky-xl-top Pc d-lg-block d-none">Accordion</h2>
+                <h4 class="bd-heading sticky-xl-top Mobile d-md-block d-lg-none d-xl-none d-xxl-none d-none"><blockquote>Accordion <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+            
+                <div class="pc d-lg-block d-none"><p>Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.</p></div> -->
+                
+                <h4  style="font-size: 40px;"><blockquote>Accordion <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+                
+            
+            </div>
+            <div class="accordion-content">
+                <div class="accordion-1">
+                  <div class="heading">
+                    <h3 >Accordion </h3>
+                </div>
+                    <div class="accordioin-content">
+                        <div class="accordion" id="accordion-parent">
+                            <div class="accordion-item">
+                              <h1 class="accordion-header" id="heading-1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordionCollapse" aria-expanded="true" aria-controls="collapseOne">
+                                    What do you need to get started?
+                                </button>
+                              </h1>
+                              <div id="accordionCollapse" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#accordion-parent">
+                                <div class="accordion-body">
+                                    <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                    <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h1 class="accordion-header" id="heading-2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapseTwo">
+                                    How do we start working together?
+                                </button>
+                              </h1>
+                              <div id="collapse-2" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="#accordion-parent">
+                                <div class="accordion-body">
+                                    <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                    <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h1 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Will I get a pixel-perfect design?
+                                </button>
+                              </h1>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordion-parent">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- ---------------------  -->
+
+                <div class="accordion-2">
+                    <div class="heading">
+                        <h3>Flush </h3>
+                    </div>
+                    <div class="accordion accordion-flush" id="flush-parent">
+                        <div class="accordion-item">
+                          <h1 class="accordion-header" id="heading_1">
+                            <button class="accordion-button middle" type="button" data-bs-toggle="collapse" data-bs-target="#flushCollapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How fast can you deliver?
+                            </button>
+                          </h1>
+                          <div id="flushCollapseOne" class="accordion-collapse collapse show" aria-labelledby="heading_1" data-bs-parent="#flush-parent">
+                            <div class="accordion-body">
+                                <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h1 class="accordion-header" id="heading_2">
+                            <button class="accordion-button middle collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flushCollapse-2" aria-expanded="false" aria-controls="collapseTwo">
+                                Can you create a responsive website?
+                            </button>
+                          </h1>
+                          <div id="flushCollapse-2" class="accordion-collapse collapse" aria-labelledby="heading_2" data-bs-parent="#flush-parent">
+                            <div class="accordion-body">
+                                <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h1 class="accordion-header" id="heading_3">
+                            <button class="accordion-button middle  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flushCollapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Will you do backend as well ?
+                            </button>
+                          </h1>
+                          <div id="flushCollapseThree" class="accordion-collapse collapse" aria-labelledby="heading_3" data-bs-parent="#flush-parent">
+                            <div class="accordion-body">
+                                <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- -------------------------------- -->
+
+                <div class="accordion-3">
+                    <div class="heading">
+                        <h3>Always open  </h3>
+                    </div>
+
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Do you fixes bugs of html website?
+                            </button>
+                          </h3>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Will it include responsive layout?
+                            </button>
+                          </h3>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h3 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                If I will not happy with your Work then?
+                            </button>
+                          </h3>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <div class="pc d-lg-block d-none"><strong>This is Just for Monitor accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.</div>
+                                <div style="font-style: italic" class="mobile d-md-block d-lg-none d-xl-none d-xxl-none"><strong>This is just for Mobile item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. <code>.accordion-body</code>,</div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- =====================================   Accordion End  -->
+
+    <!-- ============================= Components Accordion Start  -->
+    <section class="alerts-area" id="">
+        <div class="container">
+            <div class="heading-title">
+                <!-- <h2 class="bd-heading sticky-xl-top Pc d-lg-block d-none">Accordion</h2>
+                <h4 class="bd-heading sticky-xl-top Mobile d-md-block d-lg-none d-xl-none d-xxl-none d-none"><blockquote>Accordion <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+            
+                <div class="pc d-lg-block d-none"><p>Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.</p></div> -->
+                
+                <h4 style="color: #000; font-size: 40px"><blockquote>Alerts <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+                  
+            </div>
+
+            <div class="alert-content">
+                <div class="alert-1">
+                    <h3 style="color: #000; margin: 50px 0">Just Alert</h3>
+                </div>
+                <div class="alerts-content-item-1">
+                  <div class="alert alert-primary" role="alert">
+                    A simple primary alert—check it out!
+                  </div>
+                  <div class="alert alert-secondary" role="alert">
+                    A simple secondary alert—check it out!
+                  </div>
+                  <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                  </div>
+                  <div class="alert alert-danger" role="alert">
+                    A simple danger alert—check it out!
+                  </div>
+                  <div class="alert alert-warning" role="alert">
+                    A simple warning alert—check it out!
+                  </div>
+                  <div class="alert alert-info" role="alert">
+                    A simple info alert—check it out!
+                  </div>
+                  <div class="alert alert-light" role="alert">
+                    A simple light alert—check it out!
+                  </div>
+                  <div class="alert alert-dark" role="alert">
+                    A simple dark alert—check it out!
+                  </div>
+                </div>
+                <hr>
+                <!-- ======================------------  -->
+                <br>
+                <div class="alert-2">
+                  <h3 style="color: #000; margin: 50px 0">Live Alert</h3>
+                  <br>
+                  <p>Click on the button & show Live Alerts</p>
+                  
+                  <br>
+                  <div class="alerts-content-item-1">
+                  <div class="live-aletrs-item ">
+                  <div id="liveAlertPlaceholder"></div>
+                    <button type="button" class="btn btn-danger" id="liveAlertBtn">Show live alert</button>
+                  </div>
+                </div>
+                <hr>
+                <!-- =================================-------------  -->
+                <div class="alert-3">
+                  <h3 style="color: #000; margin: 50px 0">Dismissing </h3>
+
+                  <div class="alerts-content-item-3">
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                  </div>
+                  <hr>
+                <!-- =========================----------- -->
+                <br>
+                <div class="alert-3">
+                  <h3 style="color: #000; margin: 50px 0">Alert with Icons </h3>
+
+                  <div class="alerts-content-item-3">
+                    <div class="live-aletrs-item ">
+                      
+                      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <symbol id="check-circle-fill" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                        </symbol>
+                        <symbol id="info-fill" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                        </symbol>
+                        <symbol id="exclamation-triangle-fill" fill="currentColor" viewBox="0 0 16 16">
+                          <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                        </symbol>
+                      </svg>
+                      
+                      <div class="alert alert-primary d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Info:"><use xlink:href="#info-fill"/></svg>
+                        <div>
+                          An example alert with an icon
+                        </div>
+                      </div>
+                      <div class="alert alert-success d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                        <div>
+                          An example success alert with an icon
+                        </div>
+                      </div>
+                      <div class="alert alert-warning d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                          An example warning alert with an icon
+                        </div>
+                      </div>
+                      <div class="alert alert-danger d-flex align-items-center" role="alert">
+                        <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+                        <div>
+                          An example danger alert with an icon
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <br>
+                <!-- =======================------------  -->
+                
+
+              </div>
+            
+            </div>
+        </div>
+    </section>
+
+      <!-- ============================= Components Accordion Start  -->
+        <section class="badge-area" id="">
+          <div class="container">
+              <div class="heading-title">
+                  <!-- <h2 class="bd-heading sticky-xl-top Pc d-lg-block d-none">Accordion</h2>
+                  <h4 class="bd-heading sticky-xl-top Mobile d-md-block d-lg-none d-xl-none d-xxl-none d-none"><blockquote>Accordion <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+              
+                  <div class="pc d-lg-block d-none"><p>Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.</p></div> -->
+                  
+                  <h4 style="color: #fff; font-size: 40px;"><blockquote>Badge <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+              </div>
+              
+              <div class="badge-content">
+                <div class="badge-item-1">
+                  <h3 style="color: #fff; font-size: 25px; margin: 50px 0">Badge Headings </h3>
+                  <div class="headings">
+                    <h1 style="color: #fff">Example heading <span class="badge bg-primary">New</span></h1> <br>
+                    <h2 style="color: #fff;">Example heading <span class="badge bg-secondary">New</span></h2> <br>
+                    <h3 style="position: none;">Example heading <span class="badge bg-success">New</span></h3><br>
+                    <h4 style="color: #fff;">Example heading <span class="badge bg-danger">New</span></h4><br>
+                    <h5 style="color: #fff">Example heading <span class="badge bg-warning">New</span></h5><br>
+                    <h6 style="color: #fff;">Example heading <span class="badge bg-info">New</span></h6><br>
+                  </div>
+                </div>
+                <br>
+                <!-- =================== ----------  -->
+                <div class="badge-item-2">
+                  <h3 style="color: #fff; font-size: 25px; margin: 50px 0">Position Buttons </h3>
+                  <div class="position-buttons d-flex ">
+                    <div class="button-item p-2">
+                      <button type="button" class="btn btn-primary position-relative">
+                        Notifications 
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">20</span>
+                      </button>
+                    </div>
+                    <div class="button-item p-2">
+                      <button type="button" class="btn btn-primary position-relative">
+                        Inbox
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          99+
+                          <span class="visually-hidden">unread messages</span>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="button-item p-2">
+                      <button type="button" class="btn btn-primary position-relative">
+                        Profile
+                        <span class="position-absolute top-0 start-100 translate-middle p-2  bg-danger border border-light rounded-circle">
+                          
+                          <span class="visually-hidden">New alerts</span>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- =================== ----------  -->
+                <div class="badge-item-2">
+                  <h3 style="color: #fff; font-size: 30px; margin: 50px 0">Pill Badges  </h3>
+                  
+                  <div class="pill-items">
+                    <span class="badge rounded-pill text-bg-primary btn-lg">Primary</span>
+                    <span class="badge rounded-pill text-bg-secondary">Secondary</span>
+                    <span class="badge rounded-pill text-bg-success">Success</span>
+                    <span class="badge rounded-pill text-bg-danger">Danger</span>
+                    <span class="badge rounded-pill text-bg-warning">Warning</span>
+                    <span class="badge rounded-pill text-bg-info">Info</span>
+                    <span class="badge rounded-pill text-bg-light">Light</span>
+                    <span class="badge rounded-pill text-bg-dark">Dark</span>
+                  </div>
+                </div>
+                <!-- =================== ----------  -->
+
+              </div>
+          </div>
+      </section>
+
+      <!-- ============================= -------------- Breadcrumb  -->
+      <section class="breadcrumb-area" id="breadcrumb">
+        <div class="container">
+          <div class="heading-title">
+            <!-- <h2 class="bd-heading sticky-xl-top Pc d-lg-block d-none">Accordion</h2>
+            <h4 class="bd-heading sticky-xl-top Mobile d-md-block d-lg-none d-xl-none d-xxl-none d-none"><blockquote>Accordion <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+        
+            <div class="pc d-lg-block d-none"><p>Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.</p></div> -->
+            
+            <h4 style="color: #000; font-size: 40px;"><blockquote>Breadcrumb <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+        </div>
+
+        <div class="breadcrumb-content">
+          <div class="breadcumb-item-1">
+            <h3 style="color: #000; font-size: 23px; margin: 50px 0">Just Breadcrumb  </h3>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item active" aria-current="page">Home</li>
+              </ol>
+            </nav>
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+              </ol>
+            </nav>
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Library</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Data</li>
+              </ol>
+            </nav>
+          </div>
+          <!-- ===================---  -->
+          <div class="breadcumb-item-1">
+            <h3 style="color: #000; font-size: 30px; margin: 50px 0">Dividers</h3>
+            
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Library</li>
+              </ol>
+            </nav>
+          </div>
+          <!-- ===================---  -->
+        </div>
+
+        </div>
+      </section>
+      <!-- ============================= -------------- Breadcrumb  -->
+      <section class="buttons-area" id="button">
+        <div class="container">
+          <div class="heading-title">
+            <!-- <h2 class="bd-heading sticky-xl-top Pc d-lg-block d-none">Accordion</h2>
+            <h4 class="bd-heading sticky-xl-top Mobile d-md-block d-lg-none d-xl-none d-xxl-none d-none"><blockquote>Accordion <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+        
+            <div class="pc d-lg-block d-none"><p>Build vertically collapsing accordions in combination with our Collapse JavaScript plugin.</p></div> -->
+            <h4 style="color: #fff; font-size: 40px;"><blockquote>Buttons <i style="color: orangered" class="fa-solid fa-angles-down"></i></blockquote> </h4>
+          </div>
+
+            <div class="buttons-content">
+              <div class="buttons-item-1">
+                <h3 style="color: #fff; font-size: 25px; margin: 50px 0">Example Buttons</h3>
+
+                <button type="button" class="btn btn-primary m-1">Primary</button>
+                <button type="button" class="btn btn-secondary m-1">Secondary</button>
+                <button type="button" class="btn btn-success m-1">Success</button>
+                <button type="button" class="btn btn-danger m-1">Danger</button>
+                <button type="button" class="btn btn-warning m-1">Warning</button>
+                <button type="button" class="btn btn-info m-1">Info</button>
+                <button type="button" class="btn btn-light m-1">Light</button>
+                <button type="button" class="btn btn-dark m-1">Dark</button>
+
+                <button type="button" class="btn btn-link m-1">Link</button>
+              </div>
+              <!-- ======================== --------  -->
+              <div class="buttons-item-2 ">
+                <h3 style="color: #fff; font-size: 25px; margin: 50px 0">Button tags </h3>
+
+                <a class="btn btn-danger m-1" href="#" role="button">Link</a>
+                <button class="btn btn-primary m-1" type="submit">Button</button>
+                <input class="btn btn-danger m-1" type="button" value="Input">
+                <input class="btn btn-primary m-1" type="submit" value="Submit">
+                <input class="btn btn-danger m-1" type="reset" value="Reset">
+              </div>
+              <!-- ======================== --------  -->
+
+              <div class="buttons-item-3">
+                <h3 style="color: #fff; font-size: 25px; margin: 50px 0">Outline buttons </h3>
+
+                <button type="button" class="btn btn-outline-primary m-1">Primary</button>
+                <button type="button" class="btn btn-outline-secondary m-1">Secondary</button>
+                <button type="button" class="btn btn-outline-success m-1">Success</button>
+                <button type="button" class="btn btn-outline-danger m-1">Danger</button>
+                <button type="button" class="btn btn-outline-warning m-1">Warning</button>
+                <button type="button" class="btn btn-outline-info m-1">Info</button>
+                <button type="button" class="btn btn-outline-light m-1">Light</button>
+                <button type="button" class="btn btn-outline-dark m-1">Dark</button>
+              </div>
+              <!-- ======================== --------  -->
+              <div class="buttons-item-4">
+                <h3 style="color: #fff; font-size: 25px; margin: 50px 0">Block buttons </h3>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-primary" type="button">Click</button>
+                  <button class="btn btn-danger" type="submit">Submit</button>
+                </div>
+              </div>
+              <!-- ======================== --------  -->
+            </div>
+
+            <!-- ============================--------------  -->
+        </div>
+      </section>
+
+
+    <!-- ------------------------- font awesome ------------ -->
+    <script src="https://kit.fontawesome.com/4f5afe4ac7.js" crossorigin="anonymous"></script>
+    <script src="fontawesome/all.min.js"></script>
+    <script src="fontawesome/fontawesome.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- -------------------------js link ------------ -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- ----------------------- Main js  -->
+    <script src="js/main.js"></script>
+</body>
+</html>

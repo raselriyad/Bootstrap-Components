@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: #ddd;
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+p{
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    /* font-size: 45px;
+    color: orange; */
+}
+h2{
+    /* font-size: 40px; */
+}
+h3 {
+    position: relative;
+    /* font-size: 30px; */
+    color: #fff;
+}
+h4{
+    /* font-size: 40px; */
+   
+}
+
+h3::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 200px;
+    height: 3px;
+    background-color: orangered;
+
+}
+.accordion-button{
+    font-size: 18px;
+    color: orangered;
+    font-style: italic;
+}
+.accordion-item{
+    border-radius: 50px;
+}
+.heading{
+    margin: 40px 0;;
+}
+.middle{
+    color: #000
+}                                                                                                                                              
+/* ========================================= */
+#header{
+    background-color: orangered;
+}
+.heading-content {
+    height: 5%;
+}
+
+.bootstrap-link{
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    padding: 5px 0;
+    white-space: nowrap;
+    transition: .5s;
+    justify-content: center;
+    align-items: center;
+}
+.fa-bootstrap{
+    font-size: 40px;
+    transition: .3s;
+}
+.fa-bootstrap:hover {
+    font-size: 50px;
+    transform: rotate(-30deg);
+    
+}
+
+.components{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 35px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+/* ============================= Components Start  */
+.accordion-area{
+    background-color: #535c68;
+    margin-top: 50px;
+    padding: 60px 0;
+}
+.heading-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+}
+h2 {
+    position: relative;
+}
+
+
+.heading-title p { margin-top: 10px;}
+
+/* ============================== Alerts Start  */
+.alerts-area {
+    background-color: #ddd;
+    padding: 60px 0;
+    margin-top: 50px;
+}
+/* ============================= Components Badge   */
+.badge-area, .buttons-area {
+    background-color: #535c68;
+    padding: 60px 0;
+}
+/* ============================= -------------- Breadcrumb  */
+.breadcrumb-area{
+    background-color: #ddd;
+    padding: 60px 0;
+    
+}
